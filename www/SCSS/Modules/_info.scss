@@ -1,0 +1,19 @@
+.info{
+	img{
+		display: block;
+    		margin: 0 auto;
+    		margin-bottom: 60px;
+	}
+	h1{
+		font-size: $font-body; 
+		text-align: center; 
+		font-weight: bold;
+		letter-spacing: 5px;
+		margin-bottom: 10px;
+	}
+	p{
+		text-align: center; 
+		line-height: $line-body; 
+		color: $colorGrey;
+	}
+}

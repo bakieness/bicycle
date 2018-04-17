@@ -1,0 +1,41 @@
+.slider{
+	opacity: 0;
+	width: 100%;
+	position: absolute;
+	z-index: -10;
+	-webkit-transition: all .25s;
+	   -moz-transition: all .25s;
+	    -ms-transition: all .25s;
+	     -o-transition: all .25s;
+	        transition: all .25s;
+	&.left{
+		left: -9000px;
+	}
+	&.right{
+		left: 9000px;
+	}
+	&.active{
+		z-index: 1;;
+		opacity: 1;
+		left: 0;
+	}
+}
+
+.slider-control{
+        height: 15px;
+	width: 15px;
+	border: 1px solid $colorGrey;
+	border-radius: 50%;
+        background-color: transparent;
+        float: left;
+        margin: 0 10px;
+        &:first-child{
+       		margin-left: 0;
+       	}
+        &:last-child{
+                margin-right: 0;
+        }
+        &.active{
+                background-color: $colorGrey;   
+       	}
+}

@@ -1,0 +1,26 @@
+nav{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+	ul{
+		display: inline-block;
+		li{
+			float: left;
+			margin: 0 50px;
+			width: 100px;
+			line-height: 130px;
+			text-align: center;
+			a{
+				color: $colorBlack;
+				&:hover{
+					text-decoration: none;
+					font-weight: bold;
+					color: #64C29E;
+				}
+			}
+			img{
+				margin-top: 20px;
+			}
+		}
+	}
+}

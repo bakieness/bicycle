@@ -1,0 +1,33 @@
+.base-grid{
+    	display: grid;
+    	grid-auto-columns: calc(100vw / 6);
+    	grid-auto-rows: 1fr;
+    	background-color: $colorWhite;
+    	.item{
+        	position: relative;
+        }
+}
+
+.grid-img{
+	background-size: cover;
+	position: relative;
+	.logo{
+        position: absolute;
+    	left: 0;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		margin: auto;
+    	}
+}
+
+.grid-info{
+	padding: 68px;
+        &::before{
+           	@include triangle(bottom, $colorWhite);
+            	position: absolute;
+            	left: 50%;
+            	top: 100%;
+        }
+        @extend .info;
+}

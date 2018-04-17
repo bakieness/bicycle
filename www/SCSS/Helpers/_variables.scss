@@ -1,0 +1,54 @@
+// Variables
+
+// colors
+$colorBlack: #000000;
+$colorWhite: #FFFFFF;
+$colorRed: #FF0000;
+$colorGreen: #00FF00;
+$colorBlue: #0000FF;
+$colorYellow: #FFFF00;
+$colorMagenta: #FF00FF;
+$colorCyan: #00FFFF;
+
+// greys
+$colorGrey: #848789;
+$colorDarkGrey: #333;
+$colorLightGrey: #aaa;
+
+// links
+$colorLink: #adadad;
+$colorLinkHover: #0083cb;
+
+$colorMain: #FC5956;
+$colorBlue: #26547C;
+$colorGreen: #06D6A0;
+$colorBG: #FAFAFA;
+
+$facebook: #3b5998;
+$twitter: #1da1f2;
+$pinterest: #bd081c;
+
+// media queries
+$break-phone: 768px;
+$break-tablet: 992px;
+$break-desktop: 1200px;
+$break-large: 1500px;
+
+// fonts
+@import url('http://fonts.googleapis.com/css?family=Roboto+Slab|Merriweather|Josefin+Slab|Oswald|Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Leckerli+One');
+$fontMain: "Oswald", sans-serif;
+$fontBase: Helvetica, Arial, Verdana, sans-serif;
+$fontSize: 16px;
+$fontHeight: 20px;
+
+//typography
+$heading1: 48px;
+$heading2: 36px;
+$heading3: 24px;
+$font-body: 18px;
+$line-body: 1.8;
+
+// others
+$snappy : cubic-bezier(0.694,  0.048, 0.335, 1.000);
+$colors-list:  $twitter $facebook $pinterest;
